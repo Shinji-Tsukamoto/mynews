@@ -35,9 +35,10 @@
                             <div class="form-group row">
                                 <label class="col-md-2">性別</label>
                                 <div class="col-md-10">
-                                    <select id="gender" class="form-control">
-                                        <option>男性</option>
-                                        <option>女性</option>
+                                    <select name="gender" class="form-control">
+                                        <option value="">選択して下さい</option>
+                                        <option value="man" >男性</option>
+                                        <option value="woman">女性</option>
                                     </select>
                                 </div>    
                             </div>
