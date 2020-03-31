@@ -25,8 +25,8 @@
                         <div class="col-md-10">
                             <select name="gender" class="form-control">
                                 <option value="">選択して下さい</option>
-                                <option value="man">男性</option>
-                                <option value="woman">女性</option>
+                                <option value="男性">男性</option>
+                                <option value="女性">女性</option>
                             </select>
                         </div>
                     </div>
@@ -50,6 +50,18 @@
                         </div>
                     </div>
                 </form>
+                <div class="row mt-5">
+                    <div class="col-md-4 mx-auto">
+                        <h2>更新履歴</h2>
+                        <ul class="list-group">
+                            @if ($profile_form->history2s != NULL)
+                                @foreach ($profile_form->history2s as $history)
+                                    <li class="list-group-item">{{ $history->edited_at }}</li>
+                                @endforeach
+                            @endif    
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
