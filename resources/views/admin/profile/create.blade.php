@@ -37,8 +37,8 @@
                                 <div class="col-md-10">
                                     <select name="gender" class="form-control">
                                         <option value="">選択して下さい</option>
-                                        <option value="man" >男性</option>
-                                        <option value="woman">女性</option>
+                                        <option value="男性" >男性</option>
+                                        <option value="女性">女性</option>
                                     </select>
                                 </div>    
                             </div>
